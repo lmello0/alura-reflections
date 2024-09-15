@@ -7,6 +7,10 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
     private Integer id;
     private String nome;
     private String cpf;
